@@ -1,5 +1,6 @@
 import fs from "fs";
 import { dateStringToDate } from "./utils";
+import { MatchResult } from "./MatchResult";
 
 export class CsvFileReader {
   data: string[][] = [];
